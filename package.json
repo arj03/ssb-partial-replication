@@ -1,0 +1,19 @@
+{
+  "name": "ssb-partial-replication",
+  "description": "createhistorystream wrapper for partial replication",
+  "version": "1.0.0",
+  "homepage": "https://github.com/arj03/ssb-partial-replication",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/arj03/ssb-partial-replication.git"
+  },
+  "dependencies": {
+    "pull-stream": "^3.6.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "author": "Anders Rune Jensen <arj03@protonmail.ch>",
+  "license": "Freebeer"
+}
