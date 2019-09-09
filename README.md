@@ -1,9 +1,8 @@
 # SSB partial replication
 
-There is something wrong with createHistoryStream when doing only a
-single feed over a network connection. Locally it takes around 600ms,
-using net protocol the same call takes 6500ms and using ws the exact
-same call takes 20000ms?
+There is something wrong with createHistoryStream over a network
+connection. Locally it takes around 600ms, using net protocol the same
+call takes 6500ms and using ws the exact same call takes 20000ms?
 
 ```
 var pull = require('pull-stream')
