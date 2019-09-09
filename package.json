@@ -15,5 +15,5 @@
     "test": "set -e; for t in test/*.js; do node $t; done"
   },
   "author": "Anders Rune Jensen <arj03@protonmail.ch>",
-  "license": "Freebeer"
+  "license": "Beerware"
 }
