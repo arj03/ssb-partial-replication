@@ -31,5 +31,10 @@ The problem seems to be buried in the
 [legacy](https://github.com/ssbc/ssb-replicate/blob/master/legacy.js)
 protocol for ssb-replication somewhere.
 
-This module simply exposes createHistoryStream as partialReplication
+This module simply exposes `createHistoryStream` as `partialReplication`
 without any of the legacy overhead and we are back to 600ms again.
+
+Since createHistoryStream does not expose a reverse option, another
+method `partialReplicationReverse` is also exposed. This allows one to
+get the latest X message starting from the latest by using the limit
+option.

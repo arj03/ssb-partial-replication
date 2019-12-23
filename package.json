@@ -1,7 +1,7 @@
 {
   "name": "ssb-partial-replication",
   "description": "createhistorystream wrapper for partial replication",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "homepage": "https://github.com/arj03/ssb-partial-replication",
   "repository": {
     "type": "git",
