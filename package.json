@@ -8,6 +8,7 @@
     "url": "git://github.com/arj03/ssb-partial-replication.git"
   },
   "dependencies": {
+    "pull-cont": "^0.1.1",
     "pull-stream": "^3.6.14"
   },
   "devDependencies": {},
