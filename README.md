@@ -31,10 +31,6 @@ The problem seems to be buried in the
 [legacy](https://github.com/ssbc/ssb-replicate/blob/master/legacy.js)
 protocol for ssb-replication somewhere.
 
-This module simply exposes `createHistoryStream` as `partialReplication`
-without any of the legacy overhead and we are back to 600ms again.
+This module simply exposes [`createHistoryStream`](https://ssbc.github.io/scuttlebutt-protocol-guide/#createHistoryStream) as `partialReplication` without any of the legacy overhead and we are back to 600ms again.
 
-Since createHistoryStream does not expose a reverse option, another
-method `partialReplicationReverse` is also exposed. This allows one to
-get the latest X message starting from the latest by using the limit
-option.
+CreateHistoryStream allows on to get a slice of messages using `seq` and `limit`. If one does not know the latest sequence number of a feed, a `partialReplicationReverse` method is also exposed. It works as createHistoryStream except one specifies `limit` only and not `seq`. Sequence will automatically be calculated to get the latest X messages for the feed.
