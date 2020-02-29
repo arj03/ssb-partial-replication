@@ -66,4 +66,7 @@ The problem seems to be buried in the
 [legacy](https://github.com/ssbc/ssb-replicate/blob/master/legacy.js)
 protocol for ssb-replication somewhere.
 
-This module simply exposes [`createHistoryStream`](https://ssbc.github.io/scuttlebutt-protocol-guide/#createHistoryStream) as `partialReplication` without any of the legacy overhead and we are back to 600ms again.
+This module simply exposes
+[`createHistoryStream`](https://ssbc.github.io/scuttlebutt-protocol-guide/#createHistoryStream)
+as `partialReplication` without any of the legacy overhead and we are
+back to 600ms again.
