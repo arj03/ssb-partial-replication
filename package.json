@@ -1,7 +1,7 @@
 {
   "name": "ssb-partial-replication",
   "description": "ssb partial replication helper functions",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "homepage": "https://github.com/arj03/ssb-partial-replication",
   "repository": {
     "type": "git",
