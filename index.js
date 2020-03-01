@@ -8,7 +8,7 @@ exports.manifest = {
   getFeed: 'source',
   getFeedReverse: 'source',
   getTangle: 'async',
-  getMessagesOfType: 'async'
+  getMessagesOfType: 'source'
 }
 exports.permissions = {
   anonymous: {allow: Object.keys(exports.manifest)}
