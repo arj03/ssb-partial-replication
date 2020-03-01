@@ -112,7 +112,8 @@ exports.init = function (sbot, config) {
         }),
         pull.filter((msg) => {
           return msg.value.private !== true
-        })
+        }),
+        pull.map(msg => msg.value)
       )
     }
   }
