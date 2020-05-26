@@ -39,7 +39,7 @@ There is something wrong with createHistoryStream over a network
 connection. Locally it takes around 600ms, using net protocol the same
 call takes 6.500ms and using ws the exact same call takes 20.000ms?
 
-```
+```javascript
 var pull = require('pull-stream')
 
 var remote = 'ws:between-two-worlds.dk:8989~shs:lbocEWqF2Fg6WMYLgmfYvqJlMfL7hiqVAV6ANjHWNw8=.ed25519'
