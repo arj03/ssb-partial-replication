@@ -1,7 +1,7 @@
 # SSB partial replication
 
 A collection of functions useful for replicating a part of the log
-instead of everything.
+instead of everything. This is superseeded by [SSB secure partial replication](https://github.com/arj03/ssb-secure-partial-replication).
 
 ## api
 
